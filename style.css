@@ -1,0 +1,103 @@
+* {
+	margin: 0; 
+	padding: 0;
+	box-sizing:border-box;
+}
+
+header{
+	background-image:url(images/sky.jpg);
+	height: 1080px;
+	
+	margin:0px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+body {
+	color:#7CD4BB;
+	text-align:center;
+	font-size:50px;
+	margin:0px;
+	font-family: 'Lato', sans-serif;
+}
+
+a:visited {
+  color:#FFB6C1;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+p {
+	font-size:30px;
+	margin:0px;
+}
+
+.container {
+	padding: 30px;
+	width: 40%; 
+	height:50vh;
+	margin: auto;
+	align-content: center; 
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #F3D9AC;
+	border-radius: 20px; 
+}
+
+.box {
+	background-color: #F3D9AC;
+	width: 100%; 
+	margin: auto;
+	align-content: center; 
+	font-size: 45px;
+	border-radius:10px 10px 0px 0px;
+}
+
+.predictions {
+		background-color: #F3D9AC; 
+		border:thick dotted #7CD4BB;
+		font-size:3vh;
+		border-radius:0px 0px 10px 10px;
+		margin: auto; 
+		height: 15vh; 
+		padding: 10px; 
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size:10px;
+  }
+  .container {
+	padding: 0px;
+	width: 90%; 
+	height:60vh;
+	margin: auto;
+	align-content: center; 
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+  
+	}
+	.footer {
+	   position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   font-size:9px;
+	   color: white;
+	   text-align: center;
+	}
